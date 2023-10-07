@@ -1,9 +1,12 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heaven 17 | Contact Us</title>
+
+    <link rel="stylesheet" href="_css/style.css">
 
     <link rel="apple-touch-icon" sizes="57x57" href="_images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="_images/favicon/apple-icon-60x60.png">
@@ -25,18 +28,133 @@
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Home</a> | <a href="faq.html">FAQ</a> | <a href="gallery.html">Gallery | <a href="contact-us.html">Contact Us</a>
-    </nav>
-     
-    
+    <main>
+        <nav class="additionalelem">
+            <a href="index.html">Home</a> | <a href="faq.html">FAQ</a> | <a href="gallery.html">Gallery</a> | <a
+                href="contact-us.html">Contact Us</a>
+        </nav>
 
-    <footer>
-        <p>Copyright &copy;, or something. 2023 </p>
-        <p>Send me an <a href="mailto:e3690330@student.dcccd.edu">email</a>!</p>
-        <p>Visit <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a> for more
-            information.
-        </p>
-    </footer>
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+
+        <section>
+
+            <h2>Pick a show near you or contact us now!</h2>
+            
+            <h3>Tour Dates</h3>
+            <table>
+                <caption>Available Venues and Dates</caption>
+                <thead>
+                    <tr>
+                        <th scope="col" abbr="Venue Column" id="venue">Venue</th>
+                        <th scope="col" abbr="City Column" id="city">City</th>
+                        <th scope="col" abbr="Date Column" id="date">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td headers="venue">Dickies Arena</td>
+                        <td headers="city">Dallas, TX</td>
+                        <td headers="date">June 15</td>
+                    </tr>
+                    <tr>
+                        <td headers="venue">Barkleys Center</td>
+                        <td headers="city">New York, NY</td>
+                        <td headers="date">June 22</td>
+                    </tr>
+                    <tr>
+                        <td headers="venue">Orleans Arena</td>
+                        <td headers="city">Las Vegas, NV</td>
+                        <td headers="date">July 3</td>
+                    </tr>
+                    <tr>
+                        <td headers="venue">Paramount Theatre</td>
+                        <td headers="city">Seattle, WA</td>
+                        <td headers="date">July 13</td>
+                    </tr>
+                    <tr>
+                        <td headers="venue">Orpheum Theatre</td>
+                        <td headers="city">Boston, MA</td>
+                        <td headers="date">August 6</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>Can't make it to one of these events? No problem! Fill out the form below to set up a private event.</p>
+            
+            <h3>Contact us</h3>
+            <fieldset>
+                <legend>Fill out this form to send us an email</legend>
+                <form name="contactform" action="mailto:e3690330@student.dcccd.edu" method="post">
+                    <p>
+                        <label title="Enter your name here">Name <input type="text" name="name"></label>
+                    </p>
+                    <p>
+                        <label title="Select a city">Where do you want to see us?</label>
+                        <select name="city">
+                            <option value="dallas" selected>Dallas, TX</option>
+                            <option value="ny" selected>New York, NY</option>
+                            <option value="vegas" selected>Las Vegas, NV</option>
+                            <option value="boston" selected>Boston, MA</option>
+                            <option value="seattle" selected>Seattle, WA</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label title="Select a date">When do you want to see us? <input type="date" name="date"></label>
+                    </p>
+                    <p>
+                        <label title="Select albums you want us to perform">Which albums do you want us to
+                            perform?</label>
+                        <br>
+                        <label title="Penthouse and Pavement">Penthouse and Pavement<input type="checkbox"
+                                name="1"></label>
+                        <br>
+                        <label title="The Luxury Gap">The Luxury Gap<input type="checkbox" name="2"></label>
+                        <br>
+                        <label title="How Men Are">How Men Are<input type="checkbox" name="3"></label>
+                        <br>
+                        <label title="Pleasure One">Pleasure One<input type="checkbox" name="4"></label>
+                        <br>
+                        <label title="Teddy Bear, Duke a Psycho">Teddy Bear, Duke a Psycho<input type="checkbox"
+                                name="5"></label>
+                        <br>
+                        <label title="Bigger Than America">Bigger Than America<input type="checkbox" name="6"></label>
+                        <br>
+                        <label title="Before After ">Before After<input type="checkbox" name="7"></label>
+                        <br>
+                        <label title="Naked As Advertised">Naked As Advertised<input type="checkbox" name="8"></label>
+
+                    </p>
+                    <p>
+                        <label title="Add a message">Message</label><br>
+                        <textarea name="messagebox"
+                            placeholder="Let us know if you are booking for an event or celebration!"></textarea>
+                    </p>
+                    <p>
+                        <label title="Select whether you want to be contacted in the future">Do you want to be contacted
+                            with promotional offers and newsletters?</label>
+                        <br>
+                        <label title="Select if you would like to receive emails">Yes please<input type="radio"
+                                name="yesno"></label>
+                        <br>
+                        <label title="Select if you do not like to receive emails">No way<input type="radio"
+                                name="yesno"></label>
+                    </p>
+
+                    <label title="Submit form"><input type="submit" value="Submit!"></label>
+                    <label title="Reset all fields"><input type="reset" value="Reset"></label>
+                </form>
+            </fieldset>
+        </section>
+        <nav class="additionalelem">
+            <p>Copyright &copy;, or something. 2023 </p>
+            <p>Send me an <a href="mailto:e3690330@student.dcccd.edu">email</a>!</p>
+            <p>Visit <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a> for more
+                information.
+            </p>
+            </footer>
+    </main>
 </body>
+
 </html>

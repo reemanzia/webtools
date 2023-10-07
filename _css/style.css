@@ -73,6 +73,38 @@ dt {
     padding-bottom: 1em;
 } /*unused for now, this is for the FAQ page elements*/
 
+fieldset {
+    width: 70%;
+    margin: 0 auto;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #000000;
+  }
+
+tbody tr:nth-child(even) {
+    background-color: rgb(240, 201, 219);
+}
+  
+tbody tr:hover {
+    background-color: rgb(182, 233, 240);
+}
+
 footer {
     height: 30px;
     padding-top: 1em;

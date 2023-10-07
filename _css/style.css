@@ -105,6 +105,11 @@ tbody tr:hover {
     background-color: rgb(182, 233, 240);
 }
 
+textarea {
+    width: 400px;
+    height: 150px;
+}
+
 footer {
     height: 30px;
     padding-top: 1em;

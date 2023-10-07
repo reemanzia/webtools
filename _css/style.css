@@ -76,13 +76,13 @@ dt {
 fieldset {
     width: 60%;
     margin: 0 auto;
-}
+} /*for contact page*/
 
 table {
     width: 50%;
     margin: 0 auto;
     border-collapse: collapse;
-}
+} /*for contact page*/
 
 th {
     padding: 5px;

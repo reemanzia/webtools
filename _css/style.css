@@ -1,6 +1,7 @@
+<link rel="layout" href="_css/layout.css">
 
 header {
-    background-color: #000000;
+    background-color: #0000;
 }
 
 .additionalelem {
@@ -12,10 +13,12 @@ header {
 h1 {
     font-size: 5em;
     color: #dd447f;
+    text-shadow: 0px 2px 10px #ffffff, 2px 0px 10px #209dad;
     font-variant:small-caps;
-    padding-top: 0.5em;
+    padding-top: 1em;
     padding-bottom: 0.25em;
     text-align: center;
+    background-color: #000000;
 }
 
 a:link { color:#209dad; } /* unvisited link */
@@ -29,13 +32,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 0.75em;
+img src{
+    height: "200";
+    width: "200";
 }
+
 
 h2 {
     font-style:italic;
@@ -45,7 +46,7 @@ h2 {
 } /*used for lyric quote*/
 
 h3 {
-    color: #851037;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif; 
 }
 
@@ -71,13 +72,16 @@ dt {
     font-weight: bolder;
     padding-top: 1em;
     padding-bottom: 1em;
-} /*unused for now, this is for the FAQ page elements*/
+} 
 
 fieldset {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 } /*for contact page*/
 
+form {
+    padding: 2em;
+}
 table {
     width: 50%;
     margin: 0 auto;

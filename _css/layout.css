@@ -41,21 +41,22 @@ article {
     margin: 3px;
     padding: 40px 5vw 20px;
     background: -webkit-linear-gradient(top, #992d51,#209dad);
+    color:white;
     border-radius: 10px 10px 10px 10px;
   }
   
   article>p {
     margin: 50px;
   }
-  
+
   figure {
-    float: left;
+    float: right;
     width: 25vw;
     margin: 8vh 1vh;
   }
   
   article:nth-child(even)>figure {
-    float: right;
+    float: left;
   }
   
   figure img {
@@ -76,3 +77,4 @@ article {
     line-height: 1.25;
     margin-top: 0.5em;
   }
+

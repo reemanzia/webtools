@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heaven 17 | Contact Us</title>
 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="_css/style.css">
     <link rel="stylesheet" href="_css/layout.css">
     <link rel="stylesheet" href="_css/nav-menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <link rel="apple-touch-icon" sizes="57x57" href="_images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="_images/favicon/apple-icon-60x60.png">
@@ -31,14 +34,15 @@
 </head>
 
 <body>
-    <main>
-        <nav class="topnav">
-            <a href="index.html">Home</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="faq.html">FAQ</a>
-            <a class="active" href="contact-us.html">Contact Us</a>
-         </nav>
-         
+    <nav class="topnav">
+        <a href="index.html"><i class="fa fa-star" style="color: #ffffff;"></i> Home</a>
+        <a href="faq.html"><i class="fa fa-star" style="color: #ffffff;"></i> FAQ</a>
+        <a href="gallery.html"><i class="fa fa-star" style="color: #ffffff;"></i> Gallery</a>
+        <a class="active" href="contact-us.html"><i class="w3-spin fa fa-star" style="color: #dd447f;"></i> Contact Us</a>
+    </nav>
+    
+    <main class="w3-container">
+
         <header>
             <h1>Contact Us</h1>
             <img src="_images/logo.png" alt=" H17 logo">
@@ -54,58 +58,59 @@
                 the cult classic Clockwork Orange and want to hear music inspired by it, or just love older, British
                 white men, you wont want to miss out on these upcoming shows!! Come see us live, still in our dazzling
                 pink suits and groovy synthetic tunes on these totally real, totally happening tour dates.</p>
-            <table>
+            <br>
+            <table class="w3-table w3-card-4 w3-striped w3-border">
                 <caption>Available Venues and Dates</caption>
                 <thead>
-                    <tr>
+                    <tr class="w3-black">
                         <th scope="col" abbr="Venue Column" id="venue">Venue</th>
                         <th scope="col" abbr="City Column" id="city">City</th>
                         <th scope="col" abbr="Date Column" id="date">Date</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="w3-hover-cyan">
                         <td headers="venue">Dickies Arena</td>
                         <td headers="city">Dallas, TX</td>
                         <td headers="date">June 15</td>
                     </tr>
-                    <tr>
+                    <tr class="w3-hover-cyan">
                         <td headers="venue">Barkleys Center</td>
                         <td headers="city">New York, NY</td>
                         <td headers="date">June 22</td>
                     </tr>
-                    <tr>
+                    <tr class="w3-hover-cyan">
                         <td headers="venue">Orleans Arena</td>
                         <td headers="city">Las Vegas, NV</td>
                         <td headers="date">July 3</td>
                     </tr>
-                    <tr>
+                    <tr class="w3-hover-cyan">
                         <td headers="venue">Paramount Theatre</td>
                         <td headers="city">Seattle, WA</td>
                         <td headers="date">July 13</td>
                     </tr>
-                    <tr>
+                    <tr class="w3-hover-cyan">
                         <td headers="venue">Orpheum Theatre</td>
                         <td headers="city">Boston, MA</td>
                         <td headers="date">August 6</td>
                     </tr>
                 </tbody>
             </table>
-
+            <br>
             <p>Can't make it to one of these events? No problem! Fill out the form below to set up a private event.</p>
 
             <h3>Contact us</h3>
-            <fieldset>
-                <legend>Fill out this form to send us an email</legend>
+            <fieldset class="w3-card-4">
+                <legend><strong>Email Form</strong></legend>
                 <form name="contactform" action="mailto:e3690330@student.dcccd.edu" method="post">
-                    <p><strong>Email Form</strong></p>
+                    <p>
+                        <label title="Enter your name here">Full Name <input class="w3-input w3-border w3-light-grey"
+                                type="text" name="name"></label>
+                    </p>
                     <br>
                     <p>
-                        <label title="Enter your name here">Full Name <input type="text" name="name"></label>
-                    </p>
-                    <p>
                         <label title="Select a city">Where do you want to see us?
-                            <select name="city">
+                            <select class="w3-select w3-border w3-light-grey" name="city">
                                 <option value="dallas" selected>Dallas, TX</option>
                                 <option value="ny">New York, NY</option>
                                 <option value="vegas">Las Vegas, NV</option>
@@ -114,54 +119,72 @@
                             </select>
                         </label>
                     </p>
+                    <br>
                     <p>
-                        <label title="Select a date">When do you want to see us? <input type="date" name="date"></label>
+                        <label title="Select a date">When do you want to see us? <input type="date"
+                                class="w3-input w3-border w3-light-grey" name="date"></label>
                     </p>
+                    <br>
                     <p title="Select albums you want us to perform">Which albums do you want us to
                         perform?</p>
-                        
                     <p>
-                    <label title="Penthouse and Pavement"><input type="checkbox" name="1"> Penthouse and
-                        Pavement (1981)</label>
-                    <br>
-                    <label title="The Luxury Gap"><input type="checkbox" name="2"> The Luxury Gap (1983)</label>
-                    <br>
-                    <label title="How Men Are"><input type="checkbox" name="3"> How Men Are (1984)</label>
-                    <br>
-                    <label title="Pleasure One"><input type="checkbox" name="4"> Pleasure One (1986)</label>
-                    <br>
-                    <label title="Teddy Bear, Duke a Psycho"><input type="checkbox" name="5"> Teddy Bear, Duke a
-                        Psycho (1988)</label>
-                    <br>
-                    <label title="Bigger Than America"><input type="checkbox" name="6"> Bigger Than America
-                        (1996)</label>
-                    <br>
-                    <label title="Before After "><input type="checkbox" name="7"> Before After (2005)</label>
-                    <br>
-                    <label title="Naked As Advertised"><input type="checkbox" name="8"> Naked As Advertised
-                        (2008)</label>
+                        <label title="Penthouse and Pavement"><input class="w3-check" type="checkbox" 
+                                name="1"> Penthouse and
+                            Pavement (1981)</label>
+                        <br>
+                        <label title="The Luxury Gap"><input class="w3-check" type="checkbox" name="2">
+                            The Luxury Gap (1983)</label>
+                        <br>
+                        <label title="How Men Are"><input class="w3-check" type="checkbox" name="3"> How
+                            Men Are (1984)</label>
+                        <br>
+                        <label title="Pleasure One"><input class="w3-check" type="checkbox" name="4">
+                            Pleasure One (1986)</label>
+                        <br>
+                        <label title="Teddy Bear, Duke a Psycho"><input class="w3-check" type="checkbox" 
+                                name="5"> Teddy Bear, Duke a
+                            Psycho (1988)</label>
+                        <br>
+                        <label title="Bigger Than America"><input class="w3-check" type="checkbox" 
+                                name="6"> Bigger Than America
+                            (1996)</label>
+                        <br>
+                        <label title="Before After "><input class="w3-check" type="checkbox" name="7">
+                            Before After (2005)</label>
+                        <br>
+                        <label title="Naked As Advertised"><input class="w3-check" type="checkbox"
+                                name="8"> Naked As Advertised
+                            (2008)</label>
                     </p>
                     <p>
+                        <br>
                         <label title="Add a message">Message<br>
-                            <textarea name="messagebox"
+                            <textarea class="w3-animate-input w3-border w3-light-grey" name="messagebox"
                                 placeholder="Let us know if you are booking for an event or celebration!"></textarea>
                         </label>
                     </p>
-                    
+                    <br>
                     <p title="Select whether you want to be contacted in the future">Do you want to be contacted
                         with promotional offers and newsletters?
                     </p>
                     <p>
-                    <label title="Select if you would like to receive emails"><input type="radio" name="yesno">Yes
-                        please</label>
-                    <br>
-                    <label title="Select if you do not like to receive emails"><input type="radio" name="yesno">No
-                        way</label>
+                        <label title="Select if you would like to receive emails"><input class="w3-radio" type="radio"
+                                name="yesno"> Yes
+                            please</label>
+                        <br>
+                        <label title="Select if you do not like to receive emails"><input class="w3-radio" type="radio"
+                                name="yesno"> No
+                            way</label>
                     </p>
                     <br>
-                    <label title="Submit form"><input type="submit" value="Submit"> Send it!</label>
-                    <br>
-                    <label title="Reset all fields"><input type="reset" value="Reset"> Restart</label>
+                    <p class="w3-bar w3-center">
+                        <label title="Submit form"><input
+                                class=" w3-button w3-cyan w3-hover-light-grey w3-padding-small" style="width: 20%"
+                                type="submit" value="Submit"></label>
+                        <label title="Reset all fields"><input
+                                class="w3-button w3-black w3-hover-light-grey w3-padding-small" style="width: 20%"
+                                type="reset" value="Reset"></label>
+                    </p>
                 </form>
             </fieldset>
         </section>

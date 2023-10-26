@@ -105,6 +105,114 @@ fieldset {
 form {
     padding: 2em;
 }
+
+/*on mobile devices */
+<code>
+@media screen and (max-width: 481px){
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      html {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%
+      }
+      
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+    
+    header img {
+        position: fixed;
+        top: 20px;
+        right: 40px;
+        z-index: 2;
+    
+    }
+    
+    header {
+        background-color: #0000;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .additionalelem {
+        color: #ffffff;
+        background-color:#000000;
+        text-align: center;
+    } /*applied to nav bar and footer*/
+    
+    h1 {
+        font-size: 5em;
+        font-weight: 900;
+        color: #dd447f;
+        text-shadow: -1px -1px 10px #ffffff, -3px 1px 10px #00BCD4;
+        font-variant:small-caps;
+        padding-top: 1em;
+        padding-bottom: 0.25em;
+        text-align: center;
+        background-color: #000000;
+        width: 100%;
+    }
+    
+    a:link { color:#00BCD4; } /* unvisited link */
+    a:visited { color:#00BCD4; } /* visited link */
+    a:hover { color:#dd447f; } /* mouse over link */
+    
+    img src{
+        height: "200";
+        width: "200";
+    }
+    
+    
+    h2 { 
+        font-weight: lighter;
+        text-align:center;
+    } 
+    
+    h3 {
+        color: #992d51;
+    }
+    
+    section {
+        color: #000000; 
+        width: 100%;
+        margin: 0 auto; 
+        background-color:#ffffff ;
+        padding: 4em 4em;
+    }
+    
+    ul {
+        color: #000000;
+        width: 95%;
+        margin: 0 auto; 
+        background-color:#ffffff;  
+    }
+    
+    dt {
+        font-weight: bolder;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    } 
+    
+    fieldset {
+        width: 95%;
+        margin: 0 auto;
+    } /*for contact page*/
+    
+    form {
+        padding: 2em;
+    }
+
+}
+</code>
+
 /*
 table {
     width: 50%;

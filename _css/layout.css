@@ -29,8 +29,10 @@ article {
     content: "";
     clear: both;
     display: table;
-    border: solid medium #000;
-    border-radius: 15px;
+    border: solid thin lightgrey;
+    box-shadow: 3px 3px 7px lightgrey;
+    background-color: white;
+    border-radius: 0px;
     width: 90%;
     max-width: 900px;
     min-width: 500px;
@@ -38,11 +40,11 @@ article {
   }
   
   article h3 {
-    margin: 3px;
-    padding: 40px 5vw 20px;
+    margin: 0px;
+    padding: 40px 5vw 10px;
     background: -webkit-linear-gradient(top, #992d51,#209dad);
     color:white;
-    border-radius: 10px 10px 10px 10px;
+    
   }
   
   article>p {
@@ -61,6 +63,8 @@ article {
   
   figure img {
     display: block;
+    box-shadow: 2px 2px 5px grey;
+    clear:both;
     height: 250px;
     width: 250px;
     margin-left: auto;

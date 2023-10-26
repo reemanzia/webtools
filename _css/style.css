@@ -42,7 +42,7 @@ h1 {
     font-size: 5em;
     font-weight: 900;
     color: #dd447f;
-    text-shadow: -1px -1px 10px #ffffff, -3px 1px 10px #209dad;
+    text-shadow: -1px -1px 10px #ffffff, -3px 1px 10px #00BCD4;
     font-variant:small-caps;
     padding-top: 1em;
     padding-bottom: 0.25em;
@@ -51,15 +51,14 @@ h1 {
     width: 100%;
 }
 
-a:link { color:#209dad; } /* unvisited link */
-a:visited { color:#209dad; } /* visited link */
+a:link { color:#00BCD4; } /* unvisited link */
+a:visited { color:#00BCD4; } /* visited link */
 a:hover { color:#dd447f; } /* mouse over link */
 
 body {
     background-color:#000;
-    background: -webkit-linear-gradient(top, #000000, #3b0316, #992d51,#209dad, #992d51,#3b0316, #000000);
-    background: -moz-linear-gradient(top, #000000, #3b0316, #992d51, #209dad, #992d51, #3b0316, #000000);
-    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(top, #000000, #3b0316, #992d51,#00BCD4, #992d51,#3b0316, #000000);
+    background: -moz-linear-gradient(top, #000000, #3b0316, #992d51, #00BCD4, #992d51, #3b0316, #000000);
 }
 
 img src{
@@ -68,21 +67,17 @@ img src{
 }
 
 
-h2 {
-    
+h2 { 
     font-weight: lighter;
-    font-family: 'Times New Roman', Times, serif;
     text-align:center;
 } /*used for lyric quote*/
 
 h3 {
     color: #992d51;
-    font-family: Arial, Helvetica, sans-serif; 
 }
 
 section {
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif; 
+    color: #000000; 
     width: 70%;
     margin: 0 auto; 
     background-color:#ffffff ;
@@ -91,7 +86,6 @@ section {
 
 ul {
     color: #000000;
-    font-family: Arial, Helvetica, sans-serif; 
     width: 80%;
     margin: 0 auto; 
     background-color:#ffffff;

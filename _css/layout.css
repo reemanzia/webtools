@@ -52,13 +52,13 @@ article {
   }
 
   figure {
-    float: right;
+    float: left;
     width: 25vw;
     margin: 8vh 1vh;
   }
   
   article:nth-child(even)>figure {
-    float: left;
+    float: right;
   }
   
   figure img {
